@@ -33,7 +33,7 @@ jobs:
         cmd: install
     
     - name: Install Material-ui
-      run: npm install @material-ui/core
+      run: yarn add @material-ui/core
         
     - name: Build React App
       run: yarn build
