@@ -15,9 +15,9 @@ const useStyles = makeStyles((theme) => ({
 const ProgressCircle = () =>{
     const classes = useStyles()
     return (
-    <BackDrop open={true} className={classes.backdrop}>
+    <Backdrop open={true} className={classes.backdrop}>
         <CircularProgress color="inherit"/>
-    </BackDrop>
+    </Backdrop>
 )}
 
 export default ProgressCircle
