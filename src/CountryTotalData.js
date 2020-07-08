@@ -1,8 +1,7 @@
 import React from 'react'
-import { Grid, Icon, makeStyles, Typography } from '@material-ui/core'
+import { Grid, makeStyles, Typography } from '@material-ui/core'
 import CountUp from 'react-countup'
 import { CountryDataPlot } from './DataPlots'
-import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 
 
 const useStyles = makeStyles((theme) => ({
