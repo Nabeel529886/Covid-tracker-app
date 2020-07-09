@@ -28,14 +28,6 @@ const CountryDropDown = ({nameCountry}) => {
 
 
     return (
-        // <FormControl>
-        //     <NativeSelect defaultValue="" onChange={(e) => nameCountry(e.target.value)} className={classes.root}>
-        //     <option value="" className={classes.dropdownOptions}>Global</option>
-        //     {fetchedCountries.map(country => (
-        //         <option key={country.id} value={country.name} className={classes.dropdownOptions}>{country.name}</option>
-        //     ))}
-        //     </NativeSelect>
-        // </FormControl>
 
 <FormControl className={classes.formControl}>
         <InputLabel shrink htmlFor="country-native-label-placeholder">
